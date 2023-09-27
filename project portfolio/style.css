@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.port{
+    font-weight: bolder;
+    font-family: 'Cinzel';
+     letter-spacing: 3vw;
+     text-align: start;
+     font-size: 8vw;
+     width: 100%;
+     margin-left: 5vw;
+    padding-top: 5vw;
+}
+.heading{
+    height:50rem;
+    width: 100%;
+    background-image: url(annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+    background-size: cover; 
+  
+}
+.name{
+      font-family: 'Libre Baskerville';
+      margin-top: 10vh;
+      margin-left: 5vw;
+      font-size: 4vw;
+      color: #5D5491;
+}
+.name-description{
+    font-size: 2vw;
+    margin-top: 5vh;
+    color: #5D5491;
+}
+
+.artdiv{
+    height: 40rem;
+    width: 100%;
+    background-color: #FFD4CC;
+}
+.heading-artdiv{
+    font-family: 'Libre Baskerville';
+    font-size: 5vw;
+    width: 30vw;
+    margin-left: 5vw;
+    padding-top: 10vh;  
+}
+.para-artdiv{
+    width: 30vw;
+    padding-top: 10vh;
+    margin-left: 5vw;
+    font-family: 'Libre Baskerville';
+    font-size: 2vw;
+    word-spacing: 0.5vw;
+    line-height: 50px   ;  
+}
+.container-artdiv{
+    display: flex;
+}
+.img-artdiv img { 
+    height: 300px;
+    padding-left: 20vw;
+    padding-top: 4vh;
+}
+.credentials{
+    height: 120%;
+    width: 100%;
+    background-image: url(./Screenshot\ 2023-08-26\ 121911.png);
+    background-size: cover;
+    font-family: 'Libre Baskerville'; 
+    width: 100%;
+}
+.credentials-heading{
+    padding-top: 8vw;
+    font-size: 5vw;
+    font-size: 5vw;
+    margin-left: 5vw;
+    font-weight: bolder;
+}
+.para-credentials{
+    margin-left: 5vw;
+    padding-top: 5vw;
+    font-size: 3vw;
+    text-decoration: underline solid pink ;
+}
+.para-credentials-2{
+    margin-left: 5vw;
+    padding-top: 5vw;
+    font-size: 2vw;
+    width: 15vw;
+    line-height: 50px;
+}
+.ai{
+    color:rgb(226, 23, 23);
+}
+.para-1{
+    display: flex;
+}
+.img-credentials img{
+    padding-left: 21vw;
+}
+.address{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Screenshot\ 2023-08-26\ 124415.png);
+    background-size: cover;
+    font-family: 'Libre Baskerville';
+}
+.letswork{
+    width: 30vw;
+    padding-left: 15vw;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+.address-bar{
+    display: flex;
+    padding-top: 40vh;
+    padding-left: 20vw;
+    justify-content: space-between;
+}
+.list{
+    list-style: none;
+}
+.high{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+
+/* media query */
+
+
+
+/* mobile size  */
+@media (min-width:120px) and (max-width:480px){
+    .port{
+        font-size: 11vw;
+    }
+    .my_name{
+        font-size: 7vw;
+    }
+    .heading{
+        height: 60vh;
+    }
+    .name-description{
+        font-size: 4vw;   
+    }
+    .artdiv{
+        height: 120%;    
+        }
+    .heading-artdiv{
+        font-size: 7vw;
+        line-height: 40px   ;
+        font-weight: bold;
+     }
+     .container-artdiv{
+        display: grid;
+        
+    }
+     .para-artdiv{
+        width: 80vw;
+        padding-top: 10vh;
+        margin-left: 5vw;
+        font-family: 'Libre Baskerville';
+        font-size: 5vw;  
+        line-height: 5vh;     
+    }
+    
+    .img-artdiv img {    
+          height: 200px;
+          padding-left: 5vw;
+          padding-top: 4vh;
+    }
+  .credentials{
+     height: 100%;
+    }
+    .para-credentials{
+        font-size: 7vw;
+        padding-top: 10vh;
+    }
+    .para-1{
+        display: grid;
+    }
+    .img-credentials img{
+        padding-left: 5vw;
+        padding-top: 4vh;
+        height: 170px;
+    }
+    .para-credentials-2{
+     width: 80vw;
+     word-spacing: 0.5vw;
+     font-size: 5vw;
+     padding-top: 8vh;
+     line-height: 35px;
+    }
+    .credentials-heading{
+      font-size: 8vw;
+    }
+    .address-bar{
+        display: grid;
+        grid-template-rows: 5fr 5fr 5fr;
+        gap: 2rem;
+        padding-left: 60vw; 
+    }
+    .high{
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    .low{
+      font-size: 2.5vw;
+    }
+    .letswork{
+        padding-left: 45vw;
+        
+    }
+}
+
+
+
+/* ipads */
+
+
+@media (min-width:481px) and (max-width:768px) {
+    
+    .heading{
+        height: 70vh;
+    }
+    .port{
+            font-size: 10vw;
+    }
+    .name{
+        font-size: 4vw;
+    }
+     .name-description{
+        font-size: 2vw;
+    }
+    .artdiv{
+     height: 110%;    
+    }
+    .heading-artdiv{
+     font-size: 5vw;
+     line-height: 8vh;
+    }
+    .container-artdiv{
+     display: grid;
+    }
+    .para-artdiv{
+      width: 80vw;
+      padding-top: 10vh;
+      margin-left: 5vw;
+      font-family: 'Libre Baskerville';
+      font-size: 3vw; 
+      line-height: 30px;  
+    }
+     .img-artdiv img { 
+      height: 300px;
+      padding-left: 5vw;
+      padding-top: 4vh;
+    }
+    .para-credentials{
+     font-size: 4vw;
+    }
+   .para-1{
+     display: grid;
+    }
+    .img-credentials img{
+     padding-left: 5vw;
+     padding-top: 4vh;
+    }
+    .para-credentials-2{
+     width: 80vw;
+     word-spacing: 0.5vw;
+     font-size: 3vw;
+    }
+    .address-bar{ 
+     display: grid;
+     grid-template-rows: 5fr 5fr 5fr;
+     gap: 2rem;
+     padding-left: 45vw;
+    }
+    .high{
+     font-size: 4vw;
+     font-weight: 400;
+    }
+    .low{
+     font-size: 2.5vw;
+    }
+    .letswork{
+     padding-left: 45vw;
+}
+}
+
+
+
+
+
+/* laptop screens */
+@media  (min-width:768px) {
+    .img-artdiv img {
+      
+        height: 300px;
+        padding-left: 10vw;
+        padding-top: 4vh;
+  }
+}
